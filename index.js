@@ -22,5 +22,10 @@ function copyText(){
     document.execCommand('copy')
     alert("Gradient copied!")
 }
+function animateCode(){
+    console.log("Pressed")
+    document.getElementsByTagName("BODY")[0].style.animation = `gradient 15s ease infinite`
+    document.getElementsByTagName("BODY")[0].style.backgroundSize = "150% 150%"
+}   outputCode.value = outputCode.value + " " + `gradient 5s ease infinite`
 
 generateCode()

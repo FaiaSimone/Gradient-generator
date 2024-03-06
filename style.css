@@ -8,6 +8,19 @@
 
 body{
     height: 100vh;
+
+    /* background-size: 400% 400%; */
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .container{
@@ -96,6 +109,18 @@ input[type="color"]{
     cursor: pointer;
 }
 
+#animate{
+    display: block;
+    background-color: #4a6ee0;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 70px;
+    border-radius: 25px;
+    margin: 0 auto 30px auto;
+    cursor: pointer;
+}
+
+
 .output{
     background-color: #f0f2fc;
 }
@@ -119,3 +144,15 @@ input[type="color"]{
     padding: 5px;
     cursor: pointer;
 }
+
+/* @keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;;
+    }
+} */
